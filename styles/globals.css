@@ -14,3 +14,15 @@ a {
 * {
   box-sizing: border-box;
 }
+.container {
+  width: 1000px;
+}
+
+.lg-container {
+  width: 1300px;
+}
+.card {
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 10%);
+  padding: 1rem 0;
+}

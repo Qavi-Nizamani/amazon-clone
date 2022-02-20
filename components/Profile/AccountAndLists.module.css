@@ -1,0 +1,10 @@
+.accountAndLists{
+    position: absolute;
+    bottom:-400px;
+    z-index: 20;
+    color: black;
+    height: 400px;
+    width: 600px;
+    left: -300px;
+    cursor: auto;
+}

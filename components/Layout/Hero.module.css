@@ -1,0 +1,176 @@
+.hero {
+  position: relative;
+  width: 1500px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.hero button {
+  height: 190px;
+  cursor: pointer;
+}
+.heroImage {
+    overflow: hidden;
+  position: absolute;
+  height: 600px;
+  width: inherit;
+  background-color: yellow;
+  background: url("/images/hero.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-origin: initial;
+  z-index: -1;
+  opacity: 1;
+}
+
+.fromRight{
+  animation: fromRight 400ms ease alternate infinite;
+
+}
+.fromLeft{
+  animation: fromLeft 400ms ease alternate infinite;
+}
+.leftSlide {
+  animation: slideLeft 200ms ease alternate infinite;
+}
+.rightSlide {
+  animation: slideRight 200ms ease alternate infinite;
+}
+/* .fromRight{
+    animation: fromRight 200ms ease alternate infinite;
+} */
+/* ANIMATION */
+.text {
+  position: relative;
+  line-height: 2em;
+  overflow: hidden;
+}
+.fadingEffect {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: white;
+  -moz-animation: showHide 5s ease-in alternate infinite; /* Firefox */
+  -webkit-animation: showHide 5s ease-in alternate infinite; /* Safari and Chrome */
+  -ms-animation: showHide 5s ease-in alternate infinite; /* IE10 */
+  -o-animation: showHide 5s ease-in alternate infinite; /* Opera */
+  animation: showHide 5s ease-in alternate infinite;
+}
+@-webkit-keyframes showHide {
+  /* Chrome, Safari */
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 0%;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-moz-keyframes showHide {
+  /* FF */
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 0%;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-ms-keyframes showHide {
+  /* IE10 */
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 0%;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@-o-keyframes showHide {
+  /* Opera */
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 0%;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes showHide {
+  0% {
+    width: 100%;
+  }
+  40% {
+    width: 0%;
+  }
+  60% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes slideLeft {
+  0% {
+    opacity: 1;
+    /* left: 0; */
+  }
+  100% {
+    opacity: 0;
+    /* left: -200px; */
+  }
+}
+@keyframes slideRight {
+  0% {
+    opacity: 1;
+    /* right: 0; */
+  }
+  100% {
+    opacity: 0;
+    /* right: -200px; */
+  }
+}
+@keyframes fromLeft {
+  0% {
+    opacity: 0;
+    /* left: -200; */
+  }
+  100% {
+    opacity: 1;
+    /* left: 0px; */
+  }
+}
+@keyframes fromRight {
+  0% {
+    opacity: 0;
+    /* right: -200px; */
+  }
+  100% {
+    opacity: 1;
+    /* right: 0px; */
+  }
+}

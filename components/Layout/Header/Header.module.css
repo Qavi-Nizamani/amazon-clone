@@ -1,0 +1,66 @@
+.header{
+    position: relative;
+    z-index: 10;
+}
+.topNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    color: white;
+    background: #000;
+    padding: 10px 0;
+}
+.leftNav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    max-width: 210px;
+}
+.logo img{
+    filter: invert();
+height: inherit;
+}
+
+.navRight{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    min-width: 400px;
+    max-width: 500px;
+}
+.accountAndLists{
+    position: relative;
+    padding: 10px 4px;
+    cursor: pointer;
+}
+.accountAndLists:hover{
+    border: 1px solid orange;
+}
+/* ****** MAIN NAV CSS CODE******* */
+.mainNav{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 45px;
+    color: white;
+    background: rgb(43, 42, 42);
+    padding: 10px 0;
+}
+.mainNav ul{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 950px;
+    list-style: none;
+    font-weight: bold;
+    text-decoration: none;
+    background: transparent;
+}
+.drawerBackdrop{
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 10;
+}
+/* ****** MAIN NAV CSS CODE ENDS******* */

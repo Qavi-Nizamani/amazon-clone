@@ -1,0 +1,33 @@
+.wrapSideDrawer{
+    
+    color: white;
+}
+.sideDrawer{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    padding: 0 20px;
+    max-height: 100%;
+    z-index: 20;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 300px;
+    
+}
+.sideDrawer ul{
+    list-style: none;
+}
+.wrapSideDrawer span{
+    font-size: 32px;
+    position: fixed;
+    text-shadow: 5px 5px 5px black;
+    left: 305px;
+    top: 0;
+    /* background-color: black; */
+    padding: 4px;
+    z-index: 20;
+}
+.wrapSideDrawer span:hover{
+cursor: pointer;
+}
