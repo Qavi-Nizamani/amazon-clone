@@ -1,0 +1,33 @@
+.signup {
+  border-top: 1px solid rgb(206, 202, 202);
+  border-bottom: 1px solid rgb(206, 202, 202);
+  text-align: center;
+  margin: 20px 0px;
+  padding-bottom: 10px;
+}
+.recommendationheading {
+  display: block;
+}
+.recommendationbtn {
+  display: block;
+  margin: auto;
+  color: black;
+  background-color: rgb(255, 199, 77);
+  font-weight: bold;
+  height: 28px;
+  width: 200px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: -2px rgb(158, 158, 158);
+  font-size: 12px;
+}
+
+.recommendationcustomer {
+  padding: 4px;
+  font-size: 12px;
+}
+.recommendationstart {
+  color: darkgreen;
+  font-size: 12px;
+}
